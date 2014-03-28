@@ -1,0 +1,71 @@
+body {
+	font-family: Courier, sans-serif;
+	background-color: DarkBlue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+div {
+	border: 3px solid yellow;
+	position: relative;
+	margin: auto;
+	width: 80%;
+	background-color: white;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+#linkedin {
+	background-color: #0077b5;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+	border-radius: 2px;
+	padding: 1px 3px;
+}
+
+hr {
+	height: 3px;
+	color: black;
+	background-color: black;
+	border: none;
+}
+
+#center {
+	height: 1px;
+	color: black;
+	background-color: black;
+}
+
+#professional, #education {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#professional strong {
+	color: #3b6da7;
+}
+
+a:link {
+	text-decoration: none;
+	color: DarkBlue;
+}
+
+#interests {
+	text-align: center;
+}
+
+#interests li {
+	display: inline-block;
+}
+
+#interests li:after {
+	content: '-';
+	padding-left: 7px;
+}
+
+#interests li:last-child:after {
+	content: '';
+}
